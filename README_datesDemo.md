@@ -22,7 +22,7 @@ import React from 'react';
 
 const DateDisplay = () => {
   const currentDate = new Date();
-  const day = currentDate.getDate();
+  const day = currentDate.getDay();
   const month = currentDate.getMonth() + 1;
   const year = currentDate.getFullYear();
 
